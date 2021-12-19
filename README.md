@@ -4,18 +4,6 @@
 
 </title>
 <style>
-.input-container {
-    display: flex;
-    width: 250px;
-    border: none;
-    justify-content: space-between;
-}
-.input-container input:focus, .input-container input:active {
-    outline: none;
-}
-.input-container input {
-    border: none;
-}
 .option:focus 
 {
     outline: none;
@@ -151,7 +139,10 @@ float:left;
 {
   border-radius: 50%;
 }
-
+::placeholder {
+  color: white;
+  opacity: 1;
+}
 </style>
 <body style="background-color:#303030">
 <br><br>
@@ -163,7 +154,7 @@ float:left;
 <button type="button" class="unstyled-button" style="margin-right:40px;">Help
 <button type="button" class="unstyled-button" style="margin-right:40px;">Features
 <button type="button" class="unstyled-button" style="margin-right:40px;">Signup
-<button type="button" class="unstyled-button-one">Request Demo <font style="color:#964fc2;">&nbsp;&nbsp;➔</font>
+<button type="button" class="unstyled-button-one" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Request Demo <font style="color:#964fc2;">&nbsp;&nbsp;➔</font>
 </div>
 </div>
 <br><br><br><br><br><br><br><br><br><br>
@@ -180,10 +171,10 @@ afraid of being stolen by others<br>
 </div>
 <br><br>
 <div style="margin-left:200px;">
-<button type="button" class="styled-button">Learn more
+<button type="button" class="styled-button" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Learn more
 </div>
 <br><br><br><br><br><br>
-<div class="container" >
+<div class="container" style="box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 <div style="color:#6ef0ee;font-size:32px;font-family: Arial, sans-serif;margin-left:457px;">
 <strong>
 We are a high-level<br>
@@ -202,7 +193,7 @@ this Data Warehouse.<br><br>
 </div>
 </div>
 <br><br><br><br><br><br><br>
-<div class="container-one">
+<div class="container-one" style="box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 <div style="color:#6ef0ee;font-size:32px;font-family: Arial, sans-serif;">
 <strong>
 Features
@@ -212,7 +203,7 @@ Features
 </div>
 <br><br><br>
 <div class="right">
-	<form class="formone">
+	<form class="formone" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 	<div class="get">
 	</div>
 	<div style="color:#6ef0ee;margin-left:35px;font-family: Arial, sans-serif;font-size:20px;"><strong>Search Data</strong></div>
@@ -232,7 +223,8 @@ Features
 	</form>
     </div>
     <div class="right">
-	<form class="formone" style="margin-left:35px;"><div class="get">
+	<form class="formone" style="margin-left:35px;" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
+	<div class="get">
 	</div>
 	<div style="color:#6ef0ee;margin-left:35px;font-family: Arial, sans-serif;font-size:20px;"><strong>Print Out</strong></div>
 	<br>
@@ -263,7 +255,7 @@ Features
 	</form>
 	</div>
 <br><br><br> 
-<div class="container-two" style="margin-top:940px;">
+<div class="container-two" style="margin-top:940px;box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;" >
 <div style="color:#6ef0ee;font-size:32px;font-family: Arial, sans-serif;">
 <strong>
 Download Our App
@@ -281,13 +273,13 @@ this Data Warehouse.<br>
 </div>
 <br><br><br>
 <div>
-<button type="button" class="styled-button" style="background-color:#141414;">Download
+<button type="button" class="styled-button" style="background-color:#141414;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Download
 </div>
 </div>
-<div class="container-one" style="margin-top:1590px;height:370px;">
+<div class="container-one" style="margin-top:1590px;height:370px;box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 <div style="color:#6ef0ee;font-size:32px;font-family: Arial, sans-serif;"><strong>Testimonials</strong></div></div>
 <div class="right">
-	<form class="formtwo" style="margin-left:265px;">
+	<form class="formtwo" style="margin-left:265px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 	<img class="imgone" src="https://www.w3schools.com/w3images/avatar2.png" style="width:70px;float:left;margin-top:50px;margin-left:60px;">
 	<div class="getone">
 	<div style="text-align:center;position:relative;margin-top:20px;float:right;margin-right:130px;">
@@ -317,7 +309,7 @@ this Data Warehouse.<br>
 	</form>
     </div>
     <div class="right">
-	<form class="formtwo" style="margin-left:35px;">
+	<form class="formtwo" style="margin-left:35px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">
 	<img class="imgone" src="https://www.w3schools.com/w3images/avatar2.png" style="width:70px;float:left;margin-top:50px;margin-left:60px;">
 	<div class="getone">
 	<div style="text-align:center;position:relative;margin-top:20px;float:right;margin-right:130px;">
@@ -338,18 +330,16 @@ this Data Warehouse.<br>
 	</div>
 	</form>
    </div>
-   <div>
+   
 <div style="color:#6ef0ee;margin-left:200px;font-size:32px;font-family: Arial, sans-serif;margin-top:2225px;">
 <strong>Subscribe !</strong>
+<div>
+<input type="text" size=53 style="font-size:14px;float:right;margin-left:480px;background-color:#1c1e26;color:#FFFFFF;position:absolute;padding:20px 30px;box-shadow:inset 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;" placeholder="Enter your e-mail address here" class="styled-button">
+    <button class="styled-button" style="font-size:13px;margin-top:10px;float:right;margin-right:200px;background-color:#141414;padding:10px 30px;position:relative;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Join Us
 </div>
 <br>
-<div style="float:left;margin-left:200px;color:#FFFFFF;font-family: Arial, sans-serif;font-size:14px;line-height: 1.6;">
-Join our newsletter to never miss any latest news.
-</div>
-</div>
-<div class="input-container">
-    <input type="text" class="input-field"/>
-    <button class="input-button">Ok</button>
+<font style="color:#FFFFFF;font-family: Arial, sans-serif;font-size:14px;float:left;">
+Join our newsletter to never miss any latest news.</font>
 </div>
 <br><br><br><br>
 <hr style="height:2px;border-width:0;background-color:#141414">
@@ -357,8 +347,8 @@ Join our newsletter to never miss any latest news.
 <br><br><br>	
 <div>
 <div style="float:right;margin-right:200px;">
-<button type="button" class="unstyled-button-one">Learn More
-<button type="button" class="unstyled-button-one" style="margin-left:15px;color:#964fc2;padding:16px 26px;">Request Demo <font style="color:#964fc2;">&nbsp;&nbsp;➔</font>
+<button type="button" class="unstyled-button-one" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Learn More
+<button type="button" class="unstyled-button-one" style="margin-left:15px;color:#964fc2;padding:16px 26px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border:none;">Request Demo <font style="color:#964fc2;">&nbsp;&nbsp;➔</font>
 </div>
 <div style="color:#6ef0ee;margin-left:200px;font-size:32px;font-family: Arial, sans-serif;"><strong>Try for Free!</strong></div>
 <br>
@@ -367,8 +357,6 @@ Get limited 1 week free try our features!
 </div>
 </div>
 <br><br><br><br><br><br><br>
-<div class="">
-<div class="">
 <div style="float:left;">
 <br>
 <div style="font-size:22px;color:#6ef0ee;margin-left:200px;font-family: Arial, sans-serif;">
@@ -381,7 +369,6 @@ Insignia Societ, 234<br>
 Bahagia Ave Street PRBW 29281<br><br>
 info@insignia.com<br><br>
 1-232-3434 (Main)
-</div>
 </div>
 </div>
 <div class="" style="float:left;margin-left:170px;font-family: Arial, sans-serif;font-size:14px;">
@@ -425,8 +412,8 @@ Q&A <br>
 <button type="button"><img src="">
 </div>
 </div>
-<br><br><br><br><br><br><br><br><br>
-</div>
+<br><br><br><br><br><br>
+
    
 
 
